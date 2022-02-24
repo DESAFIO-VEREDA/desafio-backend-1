@@ -1,0 +1,30 @@
+{
+  "name": "Desafio Backend",
+  "version": "1.0.0",
+  "description": "Desafio Backend Vereda",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DESAFIO-VEREDA/desafio-backend-1.git"
+  },
+  "author": "Juan Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DESAFIO-VEREDA/desafio-backend-1/issues"
+  },
+  "homepage": "https://github.com/DESAFIO-VEREDA/desafio-backend-1#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "mssql": "^8.0.2",
+    "nodemon": "^2.0.15",
+    "rest-mssql-nodejs": "^1.0.10",
+    "sequelize": "^6.16.2",
+    "tedious": "^14.3.0"
+  }
+}
